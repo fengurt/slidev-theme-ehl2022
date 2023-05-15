@@ -1,0 +1,47 @@
+{
+  "name": "slidev-theme-ehl-2022",
+  "version": "1.0.0",
+  "description": "Theme used by EHL China",
+  "engines": {
+    "node": ">=14.0.0",
+    "slidev": ">=0.19.3"
+  },
+  "keywords": [
+    "slidev-theme",
+    "slidev",
+    "ehl",
+    "zhichao"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/slidevjs/themes"
+  },
+  "homepage": "https://ehladvisory.com",
+  "bugs": "https://github.com/slidevjs/themes/issues",
+  "author": "zhichao <zhichao.liu@ehl.ch>",
+  "slidev": {
+    "colorSchema": "light",
+    "highlighter": "all",
+    "defaults": {
+      "aspectRatio": "16/9",
+      "canvasWidth": 1920,
+      "fonts": {
+        "sans": "San Francisco,Noto Sans Simplified Chinese,Helvetica Neue",
+        "local": "San Francisco,Noto Sans Simplified Chinese,Helvetica Neue"
+      }
+    }
+  },
+  "dependencies": {
+    "@slidev/types": "^0.22.7",
+    "codemirror-theme-vars": "^0.1.1",
+    "prism-theme-vars": "^0.2.2",
+    "theme-vitesse": "^0.1.12"
+  },
+  "scripts": {
+    "dev": "slidev example.md --open",
+    "build": "slidev build example.md",
+    "export": "slidev export example.md",
+    "screenshot": "slidev export example.md --format png"
+  }
+}
