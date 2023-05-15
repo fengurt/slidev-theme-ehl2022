@@ -1,15 +1,50 @@
 {
-  "name": "slidev",
-  "private": true,
-  "scripts": {
-    "build": "slidev build",
-    "dev": "slidev --open",
-    "export": "slidev export"
+  "name": "@pkuasule/slidev-theme-ehl2022",
+  "version": "1.0.7",
+  "private": false,
+  "description": "Theme used by EHL China",
+  "engines": {
+    "node": ">=14.0.0",
+    "slidev": ">=0.19.3"
+  },
+  "keywords": [
+    "slidev-theme",
+    "slidev",
+    "ehl",
+    "zhichao"
+  ],
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pkuasule/slidev-theme-ehl2022.git"
+  },
+  "homepage": "https://ehladvisory.com",
+  "bugs": "https://github.com/pkuasule/slidev-theme-ehl2022.git/issues",
+  "author": "zhichao <zhichao.liu@ehl.ch>",
+  "slidev": {
+    "colorSchema": "light",
+    "highlighter": "all",
+    "defaults": {
+      "aspectRatio": "16/9",
+      "fonts": {
+        "sans": "San Francisco,Noto Sans Simplified Chinese,Helvetica Neue",
+        "local": "San Francisco,Noto Sans Simplified Chinese,Helvetica Neue"
+      }
+    }
   },
   "dependencies": {
-    "@slidev/cli": "^0.40.16",
-    "@slidev/theme-apple-basic": "^0.20.0",
-    "@slidev/theme-default": "*",
-    "@slidev/theme-seriph": "*"
+    "@slidev/types": "^0.22.7",
+    "codemirror-theme-vars": "^0.1.1",
+    "prism-theme-vars": "^0.2.2",
+    "theme-vitesse": "^0.1.12"
+  },
+  "scripts": {
+    "dev": "slidev example.md --open",
+    "build": "slidev build example.md",
+    "export": "slidev export example.md",
+    "screenshot": "slidev export example.md --format png"
   }
 }
