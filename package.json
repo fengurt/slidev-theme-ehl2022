@@ -2,6 +2,7 @@
   "name": "@pkuasule/slidev-theme-ehl2022",
   "version": "1.0.12",
   "private": false,
+  "access": "public",
   "scripts": {
     "build": "slidev build",
     "dev": "slidev --open",
