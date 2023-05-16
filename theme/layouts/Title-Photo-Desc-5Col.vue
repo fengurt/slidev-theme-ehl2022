@@ -1,5 +1,5 @@
 <template>
-  <div class="slidev-layout Title-Photo-Desc-5Col">
+  <div class="slidev-layout h-full w-full Title-Photo-Desc-5Col">
     <div class="my-auto">
       <slot />
       <div class="grid grid-cols-5 gap-4">

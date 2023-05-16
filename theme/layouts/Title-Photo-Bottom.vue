@@ -1,5 +1,5 @@
 <template>
-  <div class="slidev-layout Title-Photo-Bottom bluePage static p-0">
+  <div class="slidev-layout h-full w-full Title-Photo-Bottom bluePage static p-0">
     <img class="w-full h-screen-90 object-cover object-center z-0" :src="picBG">
     <div class="my-auto px-12 pt-4">
       <slot />

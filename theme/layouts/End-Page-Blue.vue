@@ -1,5 +1,5 @@
 <template>
-  <div class="slidev-layout End-Page-Blue bluePage relative">
+  <div class="slidev-layout h-full w-full End-Page-Blue bluePage relative">
     <div class="my-auto mt-25 border-y border-stone-500 p-5">
       <slot />
       <div class="grid grid-cols-3 gap-4">

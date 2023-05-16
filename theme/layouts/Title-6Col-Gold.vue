@@ -1,5 +1,5 @@
 <template>
-  <div class="slidev-layout Title-6Col-Gold goldPage">
+  <div class="slidev-layout h-full w-full Title-6Col-Gold goldPage">
     <div class="my-auto">
       <slot />
       <div class="grid grid-cols-6 gap-4">

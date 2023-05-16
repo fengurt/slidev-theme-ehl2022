@@ -1,5 +1,5 @@
 <template>
-  <div class="slidev-layout Agenda-Letter flex flex-row p-0">
+  <div class="slidev-layout  h-full w-full Agenda-Letter flex flex-row p-0">
     <div class="basis-3/10 p-12 agenda-left pt-14" style="background-color: var(--Primary);" >
         <slot name="left"/>
       </div>

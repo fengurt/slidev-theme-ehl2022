@@ -1,5 +1,5 @@
 <template>
-  <div class="slidev-layout Title-2Col-Blue bluePage">
+  <div class="slidev-layout h-full w-full Title-2Col-Blue bluePage">
     <div class="my-auto">
       <slot />
       <div class="grid grid-cols-2 gap-4">
