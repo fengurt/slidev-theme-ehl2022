@@ -1,5 +1,6 @@
 {
   "name": "ehl2022",
+  "version": "1.0.11",
   "private": false,
   "scripts": {
     "build": "slidev build",
