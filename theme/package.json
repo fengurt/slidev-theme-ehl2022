@@ -1,9 +1,5 @@
 {
   "name": "@pkuasule/slidev-theme-ehl2022",
-  "version": "1.0.9",
-  "private": false,
-  "access": "public",
-  "description": "Theme used by EHL China",
   "engines": {
     "node": ">=14.0.0",
     "slidev": ">=0.19.3"
