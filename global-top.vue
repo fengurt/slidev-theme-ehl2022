@@ -29,7 +29,7 @@
   </footer>
 <!-- On other pages, display gold logo -->
   <footer 
-    v-if="$slidev.nav.currentLayout.slice(-4) !== 'Blue' && $slidev.nav.currentLayout !== 'Cover' && $slidev.nav.currentLayout.slice(-4) !== 'Gold' && $slidev.nav.currentLayout !== 'end' && $slidev.nav.currentLayout !== 'Quote' && $slidev.nav.currentLayout !== 'Title-Photo-Bottom' && $slidev.nav.currentLayout !== 'Title-Photo-Right' && $slidev.nav.currentLayout.slice(0,6) !== 'Agenda'" 
+    v-if="$slidev.nav.currentLayout.slice(-4) !== 'Blue' && $slidev.nav.currentLayout !== 'Cover' && $slidev.nav.currentLayout.slice(-4) !== 'Gold' && $slidev.nav.currentLayout !== 'end' && $slidev.nav.currentLayout !== 'Quote' && $slidev.nav.currentLayout !== 'Title-Photo-Top' && $slidev.nav.currentLayout !== 'Title-Photo-Right' && $slidev.nav.currentLayout.slice(0,6) !== 'Agenda'" 
     class="absolute text-sm bottom-2 left-12 right-12 py-2 border-t-1 border-gray-300 grid grid-cols-2 gap-4">
     <ehl-logo-gold />
     <div class="flex justify-end text-xs text-gray">
@@ -45,9 +45,9 @@
       <span class="opacity-25">EHL Corporate Training for {{ $slidev.configs.client }} |&nbsp;</span>{{ $slidev.nav.currentPage - 1}}
     </div>
   </footer>
-<!-- On Tilte-Photo-Bottom page, display white logo -->
+<!-- On Tilte-Photo-Top page, display white logo -->
   <footer 
-    v-if="$slidev.nav.currentLayout == 'Title-Photo-Bottom'"
+    v-if="$slidev.nav.currentLayout == 'Title-Photo-Top'"
     class="absolute text-sm bottom-2 left-12 right-12 py-2 border-t-1 border-white border-opacity-20 grid grid-cols-2 gap-4">
     <ehl-logo-white />
     <div class="flex justify-end text-xs text-white">
