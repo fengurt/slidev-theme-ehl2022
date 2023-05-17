@@ -54,7 +54,7 @@
       <span class="opacity-25">EHL Corporate Training for {{ $slidev.configs.client }} |&nbsp;</span>{{ $slidev.nav.currentPage - 1}} 
     </div>
   </footer>
-<!-- On Titte-Photo-Right page, display gold logo -->
+<!-- On Title-Photo-Right page, display gold logo -->
   <footer 
     v-if="$slidev.nav.currentLayout == 'Title-Photo-Right'"
     class="absolute bottom-2 left-12 right-12 grid grid-cols-2 gap-16">

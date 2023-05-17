@@ -24,24 +24,24 @@
 
   h1 {
     /* 四号字体大小、四倍行距、700加粗字体权重，并向左移动0.05个em的距离 */
-    @apply text-4xl mb-4 font-700 -ml-[0.05em] uppercase;
+    @apply text-5xl mb-4 font-700 -ml-[0.05em] uppercase;
     color: var(--Primary);
   }
 
   h2 {
-    @apply text-2xl font-900 capitalize;
+    @apply text-3xl font-900 capitalize;
     color: var(--Primary);
   }
 
   /* h1 + h2，表示选择紧接在 h1 元素后的 h2 元素 */
   h1 + h2 {
-    @apply -mt-4 text-1xl font-500;
+    @apply -mt-2 text-1xl font-500;
     /* @border-b-1 border-gray-400 border-opacity-50 pb-1; */
     color: var(--Secondary);
   }
 
   h3 {
-    @apply text-1.5xl pt-4 pb-1 font-900 capitalize;
+    @apply text-2xl pt-4 pb-1 font-900 capitalize;
     color: var(--Primary);
   }
 
@@ -65,11 +65,11 @@
 
   ul {
     list-style: disc;
-    @apply mt-4;
+    @apply mt-2;
   }
 
   li {
-    @apply ml-1.1em pl-0.2em leading-1.8em;
+    @apply ml-1.1em pl-0.2em leading-1.8em mb-2;
   }
 
   blockquote {
@@ -155,13 +155,26 @@
   };
 
   h1 {
-    @apply text-6xl mb-4 font-900 -ml-[0.05em] capitalize h-screen-55 flex items-end pb-1;
+    @apply text-7xl mb-4 font-900 -ml-[0.05em] capitalize h-screen-55 flex items-end pb-1;
     color: var(--White);
   };
 
   h2 {
-    @apply text-2xl font-500 capitalize pt-1;
+    @apply text-3xl font-500 capitalize pt-1;
     color: var(--Secondary);
+  }
+
+}
+
+/* Section aka. Title-Photo-Top */
+.slidev-layout.Title-Photo-Top {
+
+  h1 {
+    @apply text-6xl p-4;
+  };
+
+  h2 {
+    @apply text-2xl px-4;
   }
 
 }
@@ -220,4 +233,8 @@
   tr {
     @apply border-b border-b-white/20 font-light;
   }
+}
+
+.grid li {
+  @apply text-sm pl-0.2em leading-1.8em;
 }

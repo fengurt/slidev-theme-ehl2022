@@ -26,6 +26,7 @@
     "highlighter": "all",
     "defaults": {
       "aspectRatio": "16/9",
+      "canvasWidth": 1280,
       "fonts": {
         "sans": "San Francisco,Noto Sans Simplified Chinese,Helvetica Neue",
         "local": "San Francisco,Noto Sans Simplified Chinese,Helvetica Neue"

@@ -1,6 +1,6 @@
 <template>
   <div class="slidev-layout h-full w-full Title-Photo-Top bluePage static p-0">
-    <img class="w-full h-screen-90 object-cover object-center z-0" :src="picBG">
+    <img class="w-full h-screen-100 object-cover object-center z-0" :src="picBG">
     <div class="my-auto px-12 pt-4">
       <slot />
     </div>
