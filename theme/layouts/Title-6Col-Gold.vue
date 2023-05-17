@@ -2,30 +2,24 @@
   <div class="slidev-layout h-full w-full Title-6Col-Gold goldPage">
     <div class="my-auto">
       <slot />
-      <div class="grid grid-cols-6 gap-4">
+      <div class="grid grid-cols-6 gap-6">
         <div class="flex flex-col items-left">
-          <slot name="t1" />
-          <slot name="p1" />
+          <slot name="C1" />
         </div>
         <div class="flex flex-col items-left">
-          <slot name="t2" />
-          <slot name="p2" />
+          <slot name="C2" />
         </div>
         <div class="flex flex-col items-left">
-          <slot name="t3" />
-          <slot name="p3" />
+          <slot name="C3" />
         </div>
         <div class="flex flex-col items-left">
-          <slot name="t4" />
-          <slot name="p4" />
+          <slot name="C4" />
         </div>
         <div class="flex flex-col items-left">
-          <slot name="t5" />
-          <slot name="p5" />
+          <slot name="C5" />
         </div>
         <div class="flex flex-col items-left">
-          <slot name="t6" />
-          <slot name="p6" />
+          <slot name="C6" />
         </div>
       </div>
     </div>

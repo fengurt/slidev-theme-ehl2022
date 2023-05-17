@@ -2,38 +2,30 @@
   <div class="slidev-layout h-full w-full Title-Photo-Desc-6Col">
     <div class="my-auto">
       <slot />
-      <div class="grid grid-cols-6 gap-4">
+      <div class="grid grid-cols-6 gap-6">
         <div class="flex flex-col items-left">
           <img class="w-full h-screen-35 object-cover object-center" :src="pic1">
-          <div class="w-full ">
-            <slot name="t1" />
-            <slot name="p1" />
-          </div>
+          <slot name="C1" />
         </div>
         <div class="flex flex-col items-left">
           <img class="w-full h-screen-35 object-cover object-center" :src="pic2">
-          <slot name="t2" />
-          <slot name="p2" />
+          <slot name="C2" />
         </div>
         <div class="flex flex-col items-left">
           <img class="w-full h-screen-35 object-cover object-center" :src="pic3">
-          <slot name="t3" />
-          <slot name="p3" />
+          <slot name="C3" />
         </div>
         <div class="flex flex-col items-left">
           <img class="w-full h-screen-35 object-cover object-center" :src="pic4">
-          <slot name="t4" />
-          <slot name="p4" />
+          <slot name="C4" />
         </div>
         <div class="flex flex-col items-left">
           <img class="w-full h-screen-35 object-cover object-center" :src="pic5">
-          <slot name="t5" />
-          <slot name="p5" />
+          <slot name="C5" />
         </div>
         <div class="flex flex-col items-left">
           <img class="w-full h-screen-35 object-cover object-center" :src="pic6">
-          <slot name="t6" />
-          <slot name="p6" />
+          <slot name="C6" />
         </div>
       </div>
     </div>

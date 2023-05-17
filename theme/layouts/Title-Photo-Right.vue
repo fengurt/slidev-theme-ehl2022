@@ -1,6 +1,6 @@
 <template>
   <div class="slidev-layout h-full w-full Title-Photo-Right p-0">
-    <div class="h-screen grid grid-cols-2 gap-4">
+    <div class="h-screen grid grid-cols-2 gap-6">
       <div class="flex flex-col p-12 w-full items-left content-end">
           <slot />
       </div>

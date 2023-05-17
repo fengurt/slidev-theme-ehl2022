@@ -2,14 +2,12 @@
   <div class="slidev-layout h-full w-full Title-2Col-White">
     <div class="my-auto">
       <slot />
-      <div class="grid grid-cols-2 gap-4">
+      <div class="grid grid-cols-2 gap-6">
         <div class="flex flex-col items-left">
-          <slot name="t1" />
-          <slot name="p1" />
+          <slot name="C1" />
         </div>
         <div class="flex flex-col items-left">
-          <slot name="t2" />
-          <slot name="p2" />
+          <slot name="C2" />
         </div>
       </div>
     </div>

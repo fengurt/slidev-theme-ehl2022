@@ -24,6 +24,40 @@ picBG: '/resources/background-image.png'
 title: 'Something important'
 ---
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem.
+::left::
+# Lorem ipsum dolor sit amet
+
+---
+theme: ./theme
+layout: Agenda
+level: 1
+transition: slide-left
+picBG: '/resources/background-image.png'
+title: 'Simply 1 Col'
+---
+# Agenda
+## Subtitle Here
+***
+content here
+::left::
+# Lorem Ipsum Dolor sur amet
+
+<!--
+Page note that can be modified in presenter mode.
+-->
+
+---
+theme: ./theme
+layout: Blank
+level: 99
+transition: slide-left
+title: 'Something important'
+---
+
+<!--
+Page note that can be modified in presenter mode.
+-->
+
 
 ---
 theme: ./theme
@@ -77,7 +111,8 @@ title: 'Table on the left'
 ## Subtitle Here
 ***
 A 5 x 3 Table Below
-::p1::
+
+::C1::
 | Heading 1 | Heading 2 | Heading 3|
 | :--- | :---: | ---: |
 | Lorem | Ipsum | Dolor |
@@ -85,9 +120,8 @@ A 5 x 3 Table Below
 | Budayr | Ldaornd | Peahre|
 | Dorean | Mareaod | Doioias |
 
-::t2::
+::C2::
 ### And on the right, there's a description
-::p2::
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem.
 
 <!--
@@ -107,14 +141,12 @@ title: 'Something important'
 ***
 content here
 
-::t1::
+::C1::
 ### Column 1 Title
-::p1::
 Column 1 Paragraph
 
-::t2::
+::C2::
 ### Column 2 Title
-::p2::
 Column 2 Paragraph
 
 <!--
@@ -134,34 +166,28 @@ title: 'Something important'
 ***
 content here
 
-::t1::
+::C1::
 ### Column 1 Title
-::p1::
 Column 1 Paragraph
 
-::t2::
+::C2::
 ### Column 2 Title
-::p2::
 Column 2 Paragraph
 
-::t3::
+::C3::
 ### Column 3 Title
-::p3::
 Column 3 Paragraph
 
-::t4::
+::C4::
 ### Column 4 Title
-::p4::
 Column 4 Paragraph
 
-::t5::
+::C5::
 ### Column 5 Title
-::p5::
 Column 5 Paragraph
 
-::t6::
+::C6::
 ### Column 6 Title
-::p6::
 Column 6 Paragraph
 
 <!--
@@ -218,19 +244,16 @@ pic3: '/resources/background-image.png'
 ***
 content here
 
-::t1::
+::C1::
 ### Column 1 Title
-::p1::
 Column 1 Paragraph
 
-::t2::
+::C2::
 ### Column 2 Title
-::p2::
 Column 2 Paragraph
 
-::t3::
+::C3::
 ### Column 3 Title
-::p3::
 Column 3 Paragraph
 
 <!--
