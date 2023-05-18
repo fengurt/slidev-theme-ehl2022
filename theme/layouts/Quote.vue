@@ -1,7 +1,7 @@
 <template>
   <div class="slidev-layout h-full w-full Quote p-0 static">
-    <div class="absolute left-0 p-16 pl-16 mt-10 mx-0 w-150 h-150 z-10" style="background-color: var(--Primary);">
-      <mark-quote class="fill-white" width="50"/>
+    <div class="absolute left-0 p-16 pl-16 mt-10 mx-0 w-150 h-150 z-10 bg-primary-default">
+      <mark-quote class="fill-snow-default" width="50"/>
       <slot />
     </div>
     <img class="w-full h-full object-cover object-center" :src="picBG">

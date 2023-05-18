@@ -4,15 +4,15 @@
       <slot />
       <div class="grid grid-cols-3 gap-6">
         <div class="flex flex-col items-left">
-          <img class="w-full h-screen-60 object-cover object-center mt-4  bg-gray-200" :src="pic1">
+          <img class="w-full h-screen-60 object-cover object-center mt-4 bg-shade-default" :src="pic1">
           <slot name="C1" />
         </div>
         <div class="flex flex-col items-left">
-          <img class="w-full h-screen-60 object-cover object-center mt-4  bg-gray-200" :src="pic2">
+          <img class="w-full h-screen-60 object-cover object-center mt-4 bg-shade-default" :src="pic2">
           <slot name="C2" />
         </div>
         <div class="flex flex-col items-left">
-          <img class="w-full h-screen-60 object-cover object-center mt-4  bg-gray-200" :src="pic3">
+          <img class="w-full h-screen-60 object-cover object-center mt-4 bg-shade-default" :src="pic3">
           <slot name="C3" />
         </div>
       </div>

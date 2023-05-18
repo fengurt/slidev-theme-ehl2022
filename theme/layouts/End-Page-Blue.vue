@@ -1,14 +1,14 @@
 <template>
-  <div class="slidev-layout h-full w-full End-Page-Blue bluePage relative">
-    <div class="my-auto mt-30 border-y border-stone-500 p-5">
+  <div class="slidev-layout h-full w-full End-Page-Primary primaryPage relative">
+    <div class="my-auto mt-30 border-y border-secondary-default p-5">
       <slot />
       <div class="grid grid-cols-3 gap-4">
-        <div class="flex flex-col items-left border-r border-stone-500 p-4">
+        <div class="flex flex-col items-left border-r border-secondary-default p-4">
           <br>
           <h3>SWITZERLAND</h3><br><br>
           <p>Route de Cojonnex 18<br>1000 Lausanne 25<br>Switzerland<br><br>Tel: +41 (0) 21 785 13 92<br>ehladvisory@ehl.ch</p>
         </div>
-        <div class="flex flex-col items-left border-r border-stone-500 p-4">
+        <div class="flex flex-col items-left border-r border-secondary-default p-4">
           <br>
           <h3>中国</h3><br><br>
           <h4>北京</h4>
@@ -24,9 +24,9 @@
         </div>
       </div>
     </div>
-    <ehl-advisory-services class="absolute top-18 left-0 right-0 mx-auto fill-white" width="120" />
-    <tailor-made class="absolute fill-stone-500 right-38 top-18" width="100" />
-    <quality-assurance class="absolute fill-stone-500 top-12 right-10" width="120" />
+    <ehl-advisory-services class="absolute top-18 left-0 right-0 mx-auto fill-snow-default" width="120" />
+    <tailor-made class="absolute fill-secondary-default right-38 top-18" width="100" />
+    <quality-assurance class="absolute fill-secondary-default top-12 right-10" width="120" />
   </div>
   
 </template>

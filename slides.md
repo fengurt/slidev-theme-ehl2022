@@ -16,23 +16,27 @@ prefix: 先生
 
 ---
 theme: ./theme
-layout: Title-Photo-Right
+layout: Title-2Col-Snow
 level: 1
 transition: slide-left
 title: 'Something important'
-picBG: '/resources/background-image.png'
+picBG: '/resources/listen.svg'
 ---
 # 沟通的定义
 ## Define the term *Communication*
 ***
-The imparting or exchanging of information by speaking, writing, or using some other medium.
-通过说话，写作或使用其他媒介来传递或**交换**信息。
-
+<br>
+::C1::
+**沟通**是通过说话，写作或使用其他媒`介来`传递或**交换**信息。
 ## 沟通是信息的交换
 - 说 vs 听
 - 写 vs 看
 
+::C2::
+<illustration-listen width="70%"/>
+```ts
 聽：耳朵 + 眼睛 + 注意力 + 心（感受） + 头脑
+```
 
 ---
 theme: ./theme
@@ -51,7 +55,7 @@ Page note that can be modified in presenter mode.
 
 ---
 theme: ./theme
-layout: Title-5Col-White
+layout: Title-5Col-Snow
 level: 1
 transition: slide-left
 title: 'Something important'
@@ -62,6 +66,7 @@ title: 'Something important'
 沟通中的损耗指在沟通过程中信息的流失和消耗，如意义的偏差、信息的丢失、信息的扭曲和情感的干扰等，这些损耗会导致沟通成本的增加和效率的降低。
 
 ::C1::
+<carbon-badge class="h-full"/>
 ### 意义的偏差
 - 词语的歧义性
 - 语境的误解
@@ -120,7 +125,7 @@ C5
 
 ---
 theme: ./theme
-layout: Title-5Col-White
+layout: Title-5Col-Snow
 level: 1
 transition: slide-left
 picBG: '/resources/background-image.png'
@@ -205,7 +210,7 @@ Page note that can be modified in presenter mode.
 
 ---
 theme: ./theme
-layout: Title-4Col-White
+layout: Title-4Col-Snow
 level: 1
 transition: slide-left
 title: 'Something important'
@@ -251,7 +256,7 @@ C4
 
 ---
 theme: ./theme
-layout: Title-5Col-White
+layout: Title-5Col-Snow
 level: 1
 transition: slide-left
 title: 'Something important'
@@ -333,6 +338,12 @@ picBG: '/resources/background-image.png'
 - 问题：高管需要前往多个地点开会，但是路线需要调整，需要与高管协商并提供优质的建议。
 
 ### 故事：
+<callout Tag="Whosyourdaddy">
+
+#### heading 4
+Lorem ipsum dolor sûr/sur amet
+
+</callout>
 
 高管李总脸色有些凝重，他需要前往不同的地点开会，但是原定的路线需要调整。他知道自己需要与司机进行协商，但是他对出租车司机的服务质量和沟通能力有些担心。于是，他决定呼叫 Starrides 出租车服务，因为他听说这家公司的司机都接受了有效沟通的培训。
 
@@ -406,6 +417,59 @@ picBG: '/resources/background-image.png'
 
 最终，我将新人和他们的家人安全地送到了各自的目的地，并确保他们度过了一个愉快而难忘的婚礼之夜。这次经历让我感到非常兴奋和满足，我真的很享受能够为新人和他们的家人提供高端出行服务的机会。
 -->
+
+---
+theme: ./theme
+layout: Agenda-Letter
+level: 1
+transition: slide-left
+title: 'Something important'
+---
+# Agenda
+## Subtitle Here
+***
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem.
+::left::
+# Lorem ipsum dolor sit amet
+
+<!--
+Page note that can be modified in presenter mode.
+-->
+
+---
+theme: ./theme
+layout: Agenda
+level: 1
+transition: slide-left
+title: 'Something important'
+---
+# Agenda
+## Subtitle Here
+***
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem.
+::left::
+# Lorem ipsum dolor sit amet
+
+<!--
+Page note that can be modified in presenter mode.
+-->
+
+---
+theme: ./theme
+layout: Quote
+level: 99
+transition: slide-left
+title: 'Something important'
+
+picBG: '/resources/background-image.png'
+---
+# Quote Title
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem.
+
+<!--
+Page note that can be modified in presenter mode.
+-->
+
 
 
 ---

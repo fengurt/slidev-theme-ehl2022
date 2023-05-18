@@ -24,35 +24,28 @@
 
   h1 {
     /* 四号字体大小、四倍行距、700加粗字体权重，并向左移动0.05个em的距离 */
-    @apply text-5xl mb-4 font-700 -ml-[0.05em] uppercase;
-    color: var(--Primary);
+    @apply text-primary-default text-5xl mb-4 font-700  -ml-[0.05em] uppercase;
   }
 
   h2 {
-    @apply text-3xl font-900 capitalize;
-    color: var(--Primary);
+    @apply text-primary-default  text-3xl font-900 capitalize;
   }
 
   /* h1 + h2，表示选择紧接在 h1 元素后的 h2 元素 */
   h1 + h2 {
-    @apply -mt-2 text-1xl font-500;
-    /* @border-b-1 border-gray-400 border-opacity-50 pb-1; */
-    color: var(--Secondary);
+    @apply text-secondary-default -mt-2 text-1xl font-500;
   }
 
   h3 {
-    @apply text-2xl pt-4 pb-1 font-900 capitalize;
-    color: var(--Primary);
+    @apply text-primary-default text-2xl pt-4 pb-1 font-900 capitalize;
   }
 
   h4 {
-    @apply text-1xl pt-2 pb-1 font-500 uppercase;
-    color: var(--Primary);
+    @apply text-primary-default text-1xl pt-2 pb-1 font-500 uppercase;
   }
 
   p {
-    @apply text-sm my-2 leading-6;
-    color: var(--Text);
+    @apply text-dark-default text-sm my-2 leading-6;
   }
 
   h1 + p {
@@ -105,7 +98,7 @@
   }
 
   b, strong {
-    @apply font-600;
+    @apply bg-primary-default text-snow-default font-900 rounded py-1 px-2 mx-1;
   }
 
   kbd {
@@ -118,29 +111,23 @@
       @apply border-t-1 border-gray-300 border-opacity-50 mt-1.5;
   }
 
-  /* 左下角EHL */
-  .absolute.bottom-10 {
-    @apply text-sm;
-    color: var(--Secondary);
-  }
-
 }
 
 /* Color of page */
-.bluePage {
-  background-color: var(--Primary);
+.primaryPage {
+  @apply bg-primary-default;
   h1, h2, h3, h4, p, div {
-    color: var(--White);
+    @apply text-snow-default;
   }
 }
 
-.goldPage {
-  background-color: var(--Secondary);
+.secondaryPage {
+  @apply bg-secondary-default;
   h1, h2, h3, h4, p, div {
-    color: var(--White);
+    @apply text-snow-default;
   };
   h1 + h2 {
-    color: var(--White);
+    @apply text-snow-default;
   }
 
 }
@@ -148,20 +135,20 @@
 
 /* Cover */
 .slidev-layout.Cover {
-  background-color: var(--Primary);
+  @apply bg-primary-default;
 
   h1, h2, h3, h4, p, div {
-    color: var(--White);
+    @apply text-snow-default;
   };
 
   h1 {
     @apply text-7xl mb-4 font-900 -ml-[0.05em] capitalize h-screen-55 flex items-end pb-1;
-    color: var(--White);
+    @apply text-snow-default;
   };
 
   h2 {
     @apply text-3xl font-500 capitalize pt-1;
-    color: var(--Secondary);
+    @apply text-secondary-default;
   }
 
 }
@@ -187,29 +174,29 @@
   background-position: center center;
   background-size: auto 100%;
   h1, h2, h3, h4, p, div {
-    color: var(--White);
+    @apply text-snow-default;
   };
 }
 
 /* Color of text */
 .primaryText {
-  color: var(--Primary);
+  @apply text-primary-default;
 }
 
 .secondaryText {
-  color: var(--Secondary);
+  @apply text-secondary-default;
 }
 
 /* Agenda */
 .agenda-left{
   h1, h2, h3, h4, p, div {
-    color: var(--White);
+    @apply text-snow-default;
   };
 }
 
 .agenda-right{
   h3 {
-    color: var(--Secondary);
+    @apply text-secondary-default;
   };
   p {
     @apply text-xs;
@@ -217,7 +204,7 @@
 }
 
 
-.bluePage {
+.primaryPage {
   thead {
     @apply bg-transparent	;
   }
@@ -226,7 +213,7 @@
   }
 }
 
-.goldPage {
+.secondaryPage {
   thead {
     @apply bg-transparent	;
   }
@@ -237,4 +224,34 @@
 
 .grid li {
   @apply text-sm pl-0.2em leading-1.8em;
+}
+
+
+/* 自定义component：Callout */
+.callout {
+  @apply bg-gray-100 w-full px-4 py-4 border-blue-800 border-l-10;
+  
+  h1 {
+    @apply text-xl font-900 uppercase mt-4 mb-2 p-0;
+    /* color: var(--Primary); */
+  }
+
+  h2 {
+    @apply text-base font-700 capitalize mt-3 mb-2 p-0;
+    /* color: var(--Primary); */
+  }
+
+  h3 {
+    @apply text-sm font-900 capitalize mt-2.5 mb-2 p-0;
+    /* color: var(--Primary); */
+  }
+
+  h4 {
+    @apply text-xs font-500 uppercase mt-2.5 mb-2 p-0;
+    /* color: var(--Primary); */
+  }
+
+  p {
+    @apply text-xs m-0;
+  }
 }

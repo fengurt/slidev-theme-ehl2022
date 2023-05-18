@@ -27,7 +27,7 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor con
 
 ---
 theme: ./theme
-layout: Title-1Col-Blue
+layout: Title-1Col-Primary
 level: 1
 transition: slide-left
 picBG: '/resources/background-image.png'
@@ -44,7 +44,7 @@ Page note that can be modified in presenter mode.
 
 ---
 theme: ./theme
-layout: Title-1Col-White
+layout: Title-1Col-Snow
 level: 1
 transition: slide-left
 picBG: '/resources/background-image.png'
@@ -67,7 +67,7 @@ Page note that can be modified in presenter mode.
 
 ---
 theme: ./theme
-layout: Title-2Col-White
+layout: Title-2Col-Snow
 level: 1
 transition: slide-left
 picBG: '/resources/background-image.png'
@@ -96,7 +96,7 @@ Page note that can be modified in presenter mode.
 
 ---
 theme: ./theme
-layout: Title-2Col-Gold
+layout: Title-2Col-Secondary
 level: 1
 transition: slide-left
 picBG: '/resources/background-image.png'
@@ -123,7 +123,7 @@ Page note that can be modified in presenter mode.
 
 ---
 theme: ./theme
-layout: Title-6Col-White
+layout: Title-6Col-Snow
 level: 1
 transition: slide-left
 picBG: '/resources/background-image.png'
