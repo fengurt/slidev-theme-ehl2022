@@ -24,28 +24,28 @@
 
   h1 {
     /* 四号字体大小、四倍行距、700加粗字体权重，并向左移动0.05个em的距离 */
-    @apply text-primary-default text-5xl mb-4 font-700  -ml-[0.05em] uppercase;
+    @apply text-primary text-5xl mb-4 font-700  -ml-[0.05em] uppercase;
   }
 
   h2 {
-    @apply text-primary-default  text-3xl font-900 capitalize;
+    @apply text-primary  text-3xl font-900 capitalize;
   }
 
   /* h1 + h2，表示选择紧接在 h1 元素后的 h2 元素 */
   h1 + h2 {
-    @apply text-secondary-default -mt-2 text-1xl font-500;
+    @apply text-secondary -mt-2 text-1xl font-500;
   }
 
   h3 {
-    @apply text-primary-default text-2xl pt-4 pb-1 font-900 capitalize;
+    @apply text-primary text-2xl pt-4 pb-1 font-900 capitalize;
   }
 
   h4 {
-    @apply text-primary-default text-1xl pt-2 pb-1 font-500 uppercase;
+    @apply text-primary text-1xl pt-2 pb-1 font-500 uppercase;
   }
 
   p {
-    @apply text-dark-default text-sm my-2 leading-6;
+    @apply text-dark font-normal text-sm my-2 leading-6;
   }
 
   h1 + p {
@@ -58,7 +58,7 @@
 
   ul {
     list-style: disc;
-    @apply mt-2;
+    @apply mt-2 list-outside;
   }
 
   li {
@@ -66,7 +66,8 @@
   }
 
   blockquote {
-    @apply text-sm px-2 py-1 bg-$prism-background border-$slidev-theme-primary border-l rounded;
+    @apply text-sm px-2 py-1 bg-$prism-background border-$slidev-theme-primary border-l;
+    @apply bg-gray-100 w-full px-4 py-4 border-primary border-l-10 my-2;
   }
 
   blockquote > * {
@@ -98,7 +99,11 @@
   }
 
   b, strong {
-    @apply bg-primary-default text-snow-default font-900 rounded py-1 px-2 mx-1;
+    @apply bg-primary text-snow font-900 rounded py-1 px-2 mx-1;
+  }
+
+  em {
+    @apply not-italic bg-secondary text-snow font-900 rounded py-1 px-2 mx-1;
   }
 
   kbd {
@@ -115,19 +120,19 @@
 
 /* Color of page */
 .primaryPage {
-  @apply bg-primary-default;
+  @apply bg-primary;
   h1, h2, h3, h4, p, div {
-    @apply text-snow-default;
+    @apply text-snow;
   }
 }
 
 .secondaryPage {
-  @apply bg-secondary-default;
+  @apply bg-secondary;
   h1, h2, h3, h4, p, div {
-    @apply text-snow-default;
+    @apply text-snow;
   };
   h1 + h2 {
-    @apply text-snow-default;
+    @apply text-snow;
   }
 
 }
@@ -135,20 +140,20 @@
 
 /* Cover */
 .slidev-layout.Cover {
-  @apply bg-primary-default;
+  @apply bg-primary;
 
   h1, h2, h3, h4, p, div {
-    @apply text-snow-default;
+    @apply text-snow;
   };
 
   h1 {
     @apply text-7xl mb-4 font-900 -ml-[0.05em] capitalize h-screen-55 flex items-end pb-1;
-    @apply text-snow-default;
+    @apply text-snow;
   };
 
   h2 {
     @apply text-3xl font-500 capitalize pt-1;
-    @apply text-secondary-default;
+    @apply text-secondary;
   }
 
 }
@@ -174,29 +179,29 @@
   background-position: center center;
   background-size: auto 100%;
   h1, h2, h3, h4, p, div {
-    @apply text-snow-default;
+    @apply text-snow;
   };
 }
 
 /* Color of text */
 .primaryText {
-  @apply text-primary-default;
+  @apply text-primary;
 }
 
 .secondaryText {
-  @apply text-secondary-default;
+  @apply text-secondary;
 }
 
 /* Agenda */
 .agenda-left{
   h1, h2, h3, h4, p, div {
-    @apply text-snow-default;
+    @apply text-snow;
   };
 }
 
 .agenda-right{
   h3 {
-    @apply text-secondary-default;
+    @apply text-secondary;
   };
   p {
     @apply text-xs;

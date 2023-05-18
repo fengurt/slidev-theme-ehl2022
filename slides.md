@@ -23,20 +23,19 @@ title: 'Something important'
 picBG: '/resources/listen.svg'
 ---
 # 沟通的定义
-## Define the term *Communication*
+## Define the term Communication
 ***
 <br>
 ::C1::
-**沟通**是通过说话，写作或使用其他媒`介来`传递或**交换**信息。
+**沟通**是通过说话，写作或使用其他*媒介*来传递或**交换**信息。
 ## 沟通是信息的交换
 - 说 vs 听
 - 写 vs 看
+> what's this?
 
 ::C2::
-<illustration-listen width="70%"/>
-```ts
-聽：耳朵 + 眼睛 + 注意力 + 心（感受） + 头脑
-```
+<illustration-listen class="m-4 p-4" width="70%"/>
+> 聽：耳朵 + 眼睛 + 注意力 + 心（感受） + 头脑
 
 ---
 theme: ./theme
@@ -185,7 +184,7 @@ C3
 
 ---
 theme: ./theme
-layout: Title-Photo-Desc-4Col
+layout: Title-Photo-Desc-3Col
 level: 1
 transition: slide-left
 title: 'Something important'
@@ -227,16 +226,16 @@ content here
 ::C2::
 ### 信息
 即主题，比如乘客的需求和指示。为了确保信息的清晰和准确，我需要认真倾听乘客的话，并及时反馈。如果我有任何疑问或者不确定，我可以向乘客询问更多细节，并再次确认他们的需求和要求。
-- 接收信息时需要明确关键信息
-- 诉求（即目的）
-- 过程
+- 接收信息时需要明确**关键信息**
+- **诉求**（即目的）
+- **过程**
 
 ::C3::
 ### 方式
-- 口头沟通：面对面交流，可以直接了解乘客的需求和指示。
-- 手势沟通：比如点头表示同意，挥手表示不同意等等，可以帮助在嘈杂环境下进行沟通。
-- 笔记沟通：司机可以使用笔记本或者手机等工具记录乘客的需求和指示，从而确保信息的准确性和完整性。
-- 数字沟通：司机可以使用手机或者车载电脑等设备和乘客进行数字沟通，比如发送短信或者使用应用程序进行信息交流等等。
+- **口头沟通**：面对面交流，可以直接了解乘客的需求和指示。
+- **手势沟通**：比如点头表示同意，挥手表示不同意等等，可以帮助在嘈杂环境下进行沟通。
+- **笔记沟通**：司机可以使用笔记本或者手机等工具记录乘客的需求和指示，从而确保信息的准确性和完整性。
+- **数字沟通**：司机可以使用手机或者车载电脑等设备和乘客进行数字沟通，比如发送短信或者使用应用程序进行信息交流等等。
 
 ::C4::
 ### 语境
@@ -474,7 +473,7 @@ Page note that can be modified in presenter mode.
 
 ---
 theme: ./theme
-layout: End-Page-Blue
+layout: End-Page-Primary
 level: 99
 transition: slide-left
 title: 'Thanks for watching'
