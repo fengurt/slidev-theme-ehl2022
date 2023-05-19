@@ -1,5 +1,17 @@
 # EHL China PPT Theme Based on [Slidev](https://sli.dev/).
 
+## Getting Started
+Global installation of Slidev is **Highly** recommended.
+You can install Slidev globally with the following command
+```bash
+$ npm i -g @slidev/cli
+```
+And then use `slidev` everywhere without creating a project every time.
+```bash
+$ slidev
+```
+
+
 To use this Theme:
 - `Start SSH`
 - `npm install`
