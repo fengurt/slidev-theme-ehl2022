@@ -1,4 +1,5 @@
-# EHL China PPT Theme Based on [Slidev](https://sli.dev/).
+# EHL China PPT Theme 傻瓜教程
+> 鸣谢 to [Slidev](https://sli.dev/).
 
 ## 第1步 安装node.js和npm
 * 前往官网[nodejs.org](https://www.nodejs.org)下载并安装最新版本的node.js。
@@ -19,27 +20,31 @@ $ npm i -g @slidev/cli
 ```
 
 ***
+注意：以上3步请在使用本repo的克隆前完成
+***
 
-## Getting Started
-Global installation of Slidev is **Highly** recommended.
-You can install Slidev globally with the following command
+## 第4步：克隆本Project
 ```bash
-$ npm i -g @slidev/cli
+$ git clone 'https://github.com/pkuasule/slidev-theme-ehl2022.git'
 ```
-And then use `slidev` everywhere without creating a project every time.
+
+## 第5步：预览当前模板效果
 ```bash
 $ slidev
 ```
 
-To use this Theme:
-- `Start SSH`
-- `npm install`
-- `npm run dev`
-- visit http://localhost:3030
-- open `slides.md` and change theme to slidev-theme-ehl2022
-- press `r` to restart
-- automatically download and install the theme
+## 第6步：新建、编辑自己的文件
+### 6.1 新建自己的文件
+```bash
+$ slidev 你想要的文件名（可以不要".md"后缀）
+```
+### 6.2 预览
+使用任意浏览器，在地址栏中输入`localhost:3030`，回车。
 
-Edit the [slides.md](./slides.md) to see the changes.
+### 6.3 编辑自己的文件
+用任意文本编辑器，打开`你想要的文件名.md`编辑即可。
+> 建议的文本编辑器：[Visual Studio Code](https://code.visualstudio.com/)。
 
-Learn more about Slidev on [documentations](https://sli.dev/).
+***
+# 导出为PDF
+(待续)
