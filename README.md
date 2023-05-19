@@ -34,16 +34,17 @@ $ slidev
 ```
 
 ## 第6步：新建、编辑自己的文件
-### 6.1 新建自己的文件
+### 6.1 新建并打开自己的文件
 ```bash
-$ slidev 你想要的文件名（可以不要".md"后缀）
+$ slidev 你想要的文件名（可以不要".md"后缀） --open --remote
+```
+比如
+```bash
+$ slidev Effective_Communication --open --remote
 ```
 > 注意：下次输入同样的命令将不会再新建文件，而是直接启动服务（即播放）。
 
-### 6.2 预览/查看播放
-使用任意浏览器，在地址栏中输入`localhost:3030`，回车。
-
-### 6.3 编辑自己的文件
+### 6.2 编辑自己的文件
 用任意文本编辑器，打开`你想要的文件名.md`编辑即可。
 > 建议的文本编辑器：[Visual Studio Code](https://code.visualstudio.com/)。
 
