@@ -482,3 +482,19 @@ title: 'Thanks for watching'
 <!--
 Page note that can be modified in presenter mode.
 -->
+
+---
+theme: ./theme
+layout: easyTable
+level: 1
+transition: slide-left
+title: 'Something important'
+---
+# Title-1Col-Snow
+## Subtitle Here
+***
+content here
+
+<!--
+Page note that can be modified in presenter mode.
+-->
