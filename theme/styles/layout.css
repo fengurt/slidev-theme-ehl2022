@@ -115,7 +115,6 @@
   hr {
       @apply border-t-1 border-gray-300 border-opacity-50 mt-1.5;
   }
-
 }
 
 /* Color of page */
@@ -260,3 +259,4 @@
     @apply text-xs m-0;
   }
 }
+

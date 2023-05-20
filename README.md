@@ -54,4 +54,12 @@ $ slidev Effective_Communication --open --remote
 
 ***
 # 导出为PDF
-(待续)
+## 1.安装导出成PDF所要使用的服务
+```bash
+$ npm i -g playwright-chromium
+```
+## 2.导出
+```bash
+$ slidev export ‘你要导出的文件.md‘
+```
+> 导出的pdf文件可以在项目的跟目录下找到。
